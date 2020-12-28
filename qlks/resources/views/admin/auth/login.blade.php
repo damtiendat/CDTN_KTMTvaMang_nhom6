@@ -42,11 +42,7 @@
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Nhớ Mật khẩu') }}
-                                    </label>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -58,7 +54,7 @@
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('admin.password.request') }}">
-                                   Quên Mật Khẩu
+                                 
                                 </a>
                             </div>
                         </div>

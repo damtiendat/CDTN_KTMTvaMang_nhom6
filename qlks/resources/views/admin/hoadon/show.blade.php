@@ -165,8 +165,7 @@
                                     {{--<input type="hidden" name="tienphong" value="{{$giaphong}}">--}}
                                     {{--<button type="submit" class="btn btn-primary btn-sm" >Thanh Toán</button>--}}
                                 {{--</form>--}}
-                                <button id="inhoadon" class="btn btn-primary btn-sm">In hóa đơn</button>
-                            </div>
+                                                         </div>
 
                         </div>
                     </div>

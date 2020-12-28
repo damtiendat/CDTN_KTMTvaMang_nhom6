@@ -62,10 +62,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Messages: style can be found in dropdown.less-->
                     <li class="dropdown messages-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-envelope-o"></i>
-                            <span class="label label-success">4</span>
-                        </a>
+                        
                         <ul class="dropdown-menu">
                             <li class="header">You have 4 messages</li>
                             <li>
@@ -138,53 +135,10 @@
                         </ul>
                     </li>
                     <!-- Notifications: style can be found in dropdown.less -->
-                    <li class="dropdown notifications-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-bell-o"></i>
-                            <span class="label label-warning">10</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="header">You have 10 notifications</li>
-                            <li>
-                                <!-- inner menu: contains the actual data -->
-                                <ul class="menu">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                                            page and may cause design problems
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-users text-red"></i> 5 new members joined
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-user text-red"></i> You changed your username
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="footer"><a href="#">View all</a></li>
-                        </ul>
-                    </li>
+                    
                     <!-- Tasks: style can be found in dropdown.less -->
                     <li class="dropdown tasks-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-flag-o"></i>
-                            <span class="label label-danger">9</span>
-                        </a>
+                       
                         <ul class="dropdown-menu">
                             <li class="header">You have 9 tasks</li>
                             <li>
@@ -261,7 +215,7 @@
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             @if (Auth::check())
-                            <img src="{{ asset('vendor/adminlte/dist/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
+                            <img src="{{ asset('vendor/adminlte/dist/img/avatar5.png') }}" class="user-image" alt="User Image">
                             <span class="hidden-xs">{{ Auth::user()->name }}</span>
                                 @endif
                         </a>
@@ -298,7 +252,7 @@
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="{{ asset('vendor/adminlte/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
+                    <img src="{{ asset('vendor/adminlte/dist/img/avatar5.png') }}" class="img-circle" alt="User Image">
                 </div>
                @if (Auth::check())
                 <div class="pull-left info">
@@ -391,9 +345,9 @@
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 2.4.0
+            <b>Version</b> 1.0
         </div>
-        <strong>Copyright &copy; 2019 <a href="https://adminlte.io">datdt</a>.</strong>
+        <strong>Copyright &copy; 2020 <a href="https://adminlte.io">datdt</a>.</strong>
     </footer>
 
     <!-- Control Sidebar -->
@@ -462,7 +416,7 @@
                         <a href="javascript:void(0)">
                             <h4 class="control-sidebar-subheading">
                                 Custom Template Design
-                                <span class="label label-danger pull-right">70%</span>
+                                <span class="label label-danger pull-right">100%</span>
                             </h4>
 
                             <div class="progress progress-xxs">
@@ -474,7 +428,7 @@
                         <a href="javascript:void(0)">
                             <h4 class="control-sidebar-subheading">
                                 Update Resume
-                                <span class="label label-success pull-right">95%</span>
+                                <span class="label label-success pull-right">100%</span>
                             </h4>
 
                             <div class="progress progress-xxs">
@@ -486,7 +440,7 @@
                         <a href="javascript:void(0)">
                             <h4 class="control-sidebar-subheading">
                                 Laravel Integration
-                                <span class="label label-warning pull-right">50%</span>
+                                <span class="label label-warning pull-right">100%</span>
                             </h4>
 
                             <div class="progress progress-xxs">
@@ -498,7 +452,7 @@
                         <a href="javascript:void(0)">
                             <h4 class="control-sidebar-subheading">
                                 Back End Framework
-                                <span class="label label-primary pull-right">68%</span>
+                                <span class="label label-primary pull-right">100%</span>
                             </h4>
 
                             <div class="progress progress-xxs">
